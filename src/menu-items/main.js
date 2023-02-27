@@ -21,7 +21,7 @@ const mainMenu = {
             id: 'default',
             title: 'Home',
             type: 'item',
-            url: '/dashboard/default',
+            url: '/home/default',
             icon: icons.IconHome,
             breadcrumbs: false
         },

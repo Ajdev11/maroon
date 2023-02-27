@@ -5,6 +5,7 @@ import MainLayout from 'layout/MainLayout';
 import Loadable from 'ui-component/Loadable';
 
 // dashboard routing
+const HomeDefault = Loadable(lazy(() => import('views/maroon/Home')));
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
 
 // utilities routing
@@ -25,7 +26,16 @@ const MainRoutes = {
     children: [
         {
             path: '/',
-            element: <DashboardDefault />
+            element: <HomeDefault />
+        },
+        {
+            path: 'home',
+            children: [
+                {
+                    path: 'default',
+                    element: <HomeDefault />
+                }
+            ]
         },
         {
             path: 'dashboard',
