@@ -33,7 +33,7 @@ const LineHomeChart = () => {
     }, [navType, orangeDark]);
 
     return (
-        <Card sx={{ bgcolor: 'secondary.light' }} style={{ marginTop: 25 }}>
+        <Card style={{ marginTop: 25 }}>
             <Grid container sx={{ p: 2, pb: 0, color: '#fff' }}>
                 <Grid item xs={12}>
                     <Grid container alignItems="center" justifyContent="space-between">
