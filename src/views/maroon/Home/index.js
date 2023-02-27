@@ -39,11 +39,11 @@ const Dashboard = () => {
                 <Grid container spacing={gridSpacing}>
                     <Grid item xs={12} md={8} spacing={50}>
                         <Banner isLoading={isLoading} />
-                        <Grid item>
-                            <LineHomeChart />
-                        </Grid>
                         <Grid container style={{ marginTop: 24 }}>
                             <CardItem />
+                        </Grid>
+                        <Grid item style={{ marginBottom: 120 }}>
+                            <LineHomeChart />
                         </Grid>
                     </Grid>
                     <Grid item xs={12} md={4}>
