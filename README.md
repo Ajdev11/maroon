@@ -72,6 +72,6 @@ Once you submit your PR, a team member will review your proposal. We may ask que
 
 ### Your PR is merged!
 
-Congratulations :tada::tada: The Maroon team thanks you :sparkles:. 
+Congratulations :tada::tada: The Maroon team thanks you :sparkles:
 
 Once your PR is merged, your contributions will be publicly visible on the project.
