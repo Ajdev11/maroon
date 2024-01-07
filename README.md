@@ -8,7 +8,7 @@ In this guide you will get an overview of the contribution workflow from opening
 
 Use the table of contents icon <img src="./assets/images/table-of-contents.png" width="25" height="25" /> on the top left corner of this document to get to a specific section of this guide quickly.
 
-## New contributor guide
+## New contributor guide...................................
 
 To get an overview of the project, read the [README](README.md)  Here are some resources to help you get started with contributions to the project........
 
